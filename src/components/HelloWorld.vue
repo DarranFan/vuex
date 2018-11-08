@@ -79,6 +79,24 @@
           awesome-vue
         </a>
       </li>
+      <li>
+        <router-link to="/VuexTest">VuexTest---将store放到main.js</router-link>
+      </li>
+      <li>
+        <router-link to="/VuexTest1">VuexTest1---将store引入到要用的组件中</router-link>
+      </li>
+      <li>
+        <router-link to="/VuexTest2">VuexTest2---在相应组件输出store中state中的值</router-link>
+      </li>
+      <li>
+        <router-link to="/VuexTest3">VuexTest3---在相应组件调用store中mutations中的方法</router-link>
+      </li>
+      <li>
+        <router-link to="/Getter">在store中添加getter就是在输入之前进行处理</router-link>
+      </li>
+      <li>
+        <router-link to="/Actions">在store中添加Actions就是在输入之前进行处理</router-link>
+      </li>
     </ul>
   </div>
 </template>
